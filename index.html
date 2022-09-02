@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS | Product Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex xl:flex-nowrap lg:flex-nowrap flex-wrap p-6 bg-white shadow-lg w-1/2 m-auto gap-7">
+
+        <div>
+            <img src="./product.jpg" alt="" class="rounded-lg h-full w-full">
+        </div>
+
+        <div class="w-full flex flex-col justify-center">
+            <div class="flex w-full justify-between items-center flex-wrap">
+                <div>
+                    <h2 class="text-gray-800 2xl:text-2xl xl:text-xl text-lg font-bold">Classic White T-Shirt</h2>
+                </div>
+                <div>
+                    <h4 class="text-gray-500 text-base font-semibold">$120.00</h4>
+                </div>
+            </div>
+            <p class="text-gray-400 py-2 mb-6 font-medium">In stock</p>
+            <div class="text-gray-800 font-medium">
+                <form class="flex space-x-4">
+                    <div class="flex items-center justify-center flex-col">
+                        <label for="" class="text-center align-middle"></label>
+                        <input type="radio" name="size" class="w-6 h-6 flex items-center justify-center bg-gray-200 round-lg text-center"> XS
+                    </div>
+                    <div class="flex items-center justify-center flex-col">
+                        <label for="" class="text-center align-middle"></label>
+                        <input type="radio" name="size" class="w-6 h-6 flex items-center justify-center bg-gray-200 round-lg text-center"> S
+                    </div>
+                    <div class="flex items-center justify-center flex-col">
+                        <label for="" class="text-center align-middle"></label>
+                        <input type="radio" name="size" class="w-6 h-6 flex items-center justify-center bg-gray-200 round-lg text-center"> M
+                    </div>
+                    <div class="flex items-center justify-center flex-col">
+                        <label for="" class="text-center align-middle"></label>
+                        <input type="radio" name="size" class="w-6 h-6 flex items-center justify-center bg-gray-200 round-lg text-center"> L
+                    </div>
+                    <div class="flex items-center justify-center flex-col">
+                        <label for="" class="text-center align-middle"></label>
+                        <input type="radio" name="size" class="w-6 h-6 flex items-center justify-center bg-gray-200 round-lg text-center"> XL
+                    </div>
+                </form>
+            </div>
+            <p class="underline text-gray-400 flex 2xl:justify-end xl:justify-end justify-start cursor-pointer 2xl:mt-0 xl:mt-0 mt-4">Size Guide</p>
+
+            <button class="w-full p-4 rounded-lg font-semibold mt-10 text-white bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-800">Buy Now</button>
+
+            <p class="text-gray-400 mt-4 text-xs 2xl:text-base xl:text-base">Free shipping on all continental US order.</p>
+
+        </div>
+        
+        
+
+
+    </div>
+</body>
+</html>
